@@ -31,7 +31,7 @@ class P03Test extends WordSpec with Matchers {
         nth(2, List(1, 2, 3)) shouldBe 3
       }
       "return nth element form list of strings" in {
-        nth(2, List("1", "2", "3")) shouldBe "3"
+        nth(2, List("1", "2", "3")) shouldBe "4"
       }
     }
   }
